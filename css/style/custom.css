@@ -1,0 +1,235 @@
+:root {
+    --uvmGreen: #007155;
+    --uvmBrightGreen: #66AC47;
+    --uvmYellow: #FFD416;
+    --uvmSkyblue: #A7D4EE;
+    --background: #edfaaea1;
+    --background-transparent: rgba(253, 255, 239, 0.621);
+    --header: #764248;
+}
+
+
+html{
+    Font-family: "proxima-nova", sans-serif;
+}
+
+header img {
+    border-radius: 5%;
+    width: 50%;
+}
+
+header h1 {
+    font-size: 1.8em;
+    color: var(--uvmBrightGreen);
+    font-family: Chalkduster, fantasy;
+}
+header h2 {
+    font-size: 1.3em;
+    color: var(--uvmGreen);
+    font-family: Chalkduster, fantasy;
+    border: none;
+}
+
+nav a:link {
+    color: white;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+nav a {
+    padding: .6em;
+    background-color: var(--uvmBrightGreen);
+}
+nav {
+    text-align: center;
+    font-size: 1em;
+    padding: 1em 0;
+    margin: 0;
+    font-family: Chalkduster, fantasy;
+}
+.activePage{
+    background-color: var(--uvmYellow);
+    color: black;
+    font-style: oblique;
+}
+main {
+    height: auto;
+    min-height: 100%;
+}
+
+footer {
+    border-top: thin double black;
+    margin: 8% 0 0 0;
+    background-color: rgba(189, 189, 189, 0.764);
+    font-size: 0.8em;
+}
+footer h1 {
+  font-size: 1em;
+  margin: .5em 1em;
+}
+footer .contact,
+footer .sitemap {
+    font-size: 0.8em;
+    margin: .5em 1em;
+    color: black;
+    font-family: Chalkduster, fantasy;
+    border-bottom: none;
+}
+
+
+body {
+    margin:auto;
+    padding-right: 1em;
+    padding-left: 1em;
+    max-width: 100%;
+    background-image: url("../images/paper-background.jpg");
+}
+
+.intro {
+    background-color: var(--background);
+    
+}
+
+body section {
+    padding: 0.01em 1em;
+}
+
+
+p {
+    text-indent: 1.5em;
+    text-align: left;
+}
+
+.highligt{
+    background-color: var(--uvmYellow);
+    color: white;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-family: Chalkduster, fantasy;
+}
+
+h2 {
+    font-size: 1.5em;
+    border-bottom: thin double black;
+    margin: .5em 0 0 0;
+    color: var(--header);
+    font-family: Chalkduster, fantasy;
+}
+
+h3 {
+    color: black;
+    margin-top: 0%;
+}
+figure.item {
+    margin: 0% 0%;
+}
+.item img {
+    width: 15em;
+    border-radius: 5%;
+}
+  
+.item .name {
+    padding: .5em;
+    font-size: 1em;
+    text-align: center;
+    text-indent: 0%;
+    background-color: var(--uvmGreen);
+    color: white;
+}
+
+.item .disc {
+    padding: .5em;
+    margin: 0em 0em ;
+    font-size: .8em;
+    text-align: center;
+    text-indent: 0%;
+}
+
+.imaging img {
+    width: 20em;
+}
+
+figcaption {
+    color: navy;
+    text-align: center;
+}
+figcaption cite {
+    font-size:x-small;
+}
+
+table {
+    border: .2em solid rgb(19, 67, 35);
+    text-align: center; 
+    margin: 1em 1em;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: thin dashed black;
+ }
+th {
+    color: var(--uvmGreen);
+ }
+tr:nth-child(even) {
+    background-color: var(--background-transparent);
+    text-align: center; 
+}
+tr:nth-child(odd) {
+    background-color: var(--uvmSkyblue);
+    text-align: center; 
+}
+
+
+form {
+    display: block;
+    margin: 0 auto;
+}
+form h2 {
+    font-size: 1em;
+}
+form p {
+    text-indent: 0;
+}
+ 
+fieldset {
+    background-color: var(--background-transparent);
+}
+fieldset legend {
+    text-decoration: underline;
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+input[type=text], 
+input[type=email],
+textarea, select {
+  border: thin solid var(--uvmGreen);
+  border-radius: .3em;
+  width: 90%;
+  height: auto;
+  margin: .5em 0 0 0;
+}
+
+input[type=text]:focus, textarea:focus {
+  background-color: var(--uvmSkyblue);
+  border: var(--uvmGreen);
+}
+ 
+input[type=submit] {
+   background-color: var(--uvmBrightGreen);
+   color: white;
+   padding: .5em 1em;
+   margin-top: .5em;
+   border: none;
+   border-radius: 5em;
+}
+ 
+input[type=submit]:hover {
+   background-color: var(--uvmGreen);
+}

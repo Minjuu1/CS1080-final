@@ -1,0 +1,32 @@
+
+main {
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+    "heading heading"
+    "one two"
+    "three three";
+}
+
+nav {
+    font-size: large;
+}
+
+.one {
+    padding: .4%;
+    margin: .4%;
+}
+
+.two {
+    padding: .4%;
+    margin: .4%;
+}
+
+.three {
+    padding: .4%;
+    margin: .4%;
+}
+
+.item img {
+    width: 10em;
+    border-radius: 5%;
+}

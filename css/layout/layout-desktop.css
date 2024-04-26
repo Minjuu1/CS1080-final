@@ -1,0 +1,84 @@
+
+header h1 {
+    text-align: center;
+}
+header h2 {
+    margin: 0px;
+    text-align: center;
+}
+header {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+} 
+header a {
+    display: grid;
+}
+a img {
+    align-content: center;
+    justify-content: center;
+}
+nav {
+    display: grid;
+    gap: .5em;
+    grid-template-columns: auto auto auto auto;
+}
+
+footer h1 {
+    grid-area: name;
+}
+footer .contact {
+    grid-area: subheading1;
+}
+footer .sitemap {
+    grid-area: subheading2;
+}
+footer p {
+    grid-area: first;
+}
+footer ul {
+    grid-area: second;
+}
+footer {
+    display: grid;
+    grid-template-areas: "name name"
+                        "subheading1 subheading2"
+                        "first second";
+    grid-template-rows: 20% 15% auto;
+}
+
+.collection {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: .5% 3%;
+}
+
+.collection h2, h3 {
+    grid-column: 1/span 3;
+}
+
+
+.item {
+    display: grid;
+    justify-content: center;
+    align-content: baseline;
+}
+
+.item img {
+    justify-content: center;
+}
+.two {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.two h2 {
+    grid-column: 1/span 2;
+}
+.two imaging {
+    grid-row: 2 / span 2;
+}
+
+
+label[for^=txt], label[for^=date], label[id^=txt] {
+    display: block;
+}

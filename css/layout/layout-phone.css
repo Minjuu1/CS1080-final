@@ -1,0 +1,85 @@
+
+nav {
+    grid-template-columns: auto;
+    font-size: .8em;
+}
+
+footer {
+    display: grid;
+    grid-template-areas: "name"
+                        "subheading1"
+                        "first"
+                        "subheading2"
+                        "second";
+    grid-template-rows: 15% 10% auto 10% auto;
+}
+footer p {
+    padding: 0 2.2em
+}
+
+header h1 {
+    font-size: 1.2em;
+}
+header h2 {
+    font-size: 1em;
+}
+p{
+    font-size: .8em;
+}
+h1 {
+    font-size: 1.1em;
+}
+h2 {
+    font-size: 1em;
+}
+h2 {
+    font-size: .9em;
+}
+
+section {
+    padding: .3%;
+    margin: .3%;
+}
+
+.collection {
+    display: grid;
+    grid-template-columns: auto;
+}
+.collection h2, h3 {
+    grid-column: 1;
+}
+.item img {
+    width: 8em;
+    border-radius: 5%;
+}
+.item .name {
+    font-size: 1em;
+}
+.item .disc {
+    font-size: .9em;
+}
+
+.two {
+    grid-template-columns: auto;
+}
+.two h2 {
+    grid-column: 1;
+}
+.imaging img{
+    width: 13em;
+    float: left;
+}
+.imaging {
+    margin: 0 3%;
+}
+.two table {
+    font-size: .7em;
+}
+.form_shop {
+    grid-template-columns: auto;
+    padding: 0%;
+}
+
+main {
+    padding-bottom: 40%;
+}
